@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/grindenv",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Grind lightweight env statistics from stdin samples.",
+  "bin": {
+    "grindenv": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/grindenv.git"
+  },
+  "homepage": "https://theworker02.github.io/grindenv/",
+  "keywords": [
+    "grind",
+    "env",
+    "stat",
+    "cli",
+    "toolkit"
+  ]
+}
